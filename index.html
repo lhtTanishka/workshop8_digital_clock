@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clock-container">
+    <div id="time"></div>
+    <div id="timezone">
+      <select id="timezone-selector">
+        <option value="Asia/Kolkata">India</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Australia/Sydney">Sydney</option>
+      </select>
+    </div>
+    <div id="format-toggle">
+      <button onclick="toggleFormat()">Toggle 12/24-hour format</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
